@@ -18,11 +18,12 @@ body {
   color: #5a5a5a;
   background: ##ececec;
   background-image: url('../image/background_symphony.png');
- /*
-  background-image: url('../image/background1.png'), url('../image/background2.png');
-  */
-}
+  }
 
+  body.index {
+  background-image: url('../image/background_angled.png');
+  color: #ffffff;
+  }
 
 h1 {
  text-align:center;
@@ -69,6 +70,10 @@ text-align:left;
 font-size:18px;
 }
 
+img.logo {
+  border: 1px solid #ffffff;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -111,7 +116,7 @@ font-size:18px;
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-image:  url('../image/background_angled.png'); */
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -202,4 +207,18 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin: 0 auto;
+}
+
+/*table for display of the title/etc */
+
+table.welcome {
+	border: none;
+	text-align: left;
+}
+td.welcome {
+	border: none;
+	float: left;
+}
+tr.welcome {
+	border: none;
 }
