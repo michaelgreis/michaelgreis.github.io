@@ -71,7 +71,9 @@ font-size:18px;
 }
 
 img.logo {
+  margin-top: 17px;
   border: 1px solid #ffffff;
+  
 }
 
 /* CUSTOMIZE THE NAVBAR
